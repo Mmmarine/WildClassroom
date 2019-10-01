@@ -16,8 +16,15 @@ class Wilder {
     public boolean isAware() {
         return this.aware;
     }
-
-
+    
+    //setters
+    public void setAwre(int aware) {
+        this.aware = aware;
+    }
+    
+    public void setFirstName(int firstName) {
+        this.firstName = firstName;
+    }
     //méthode whoAmI
 
     public String whoAmI() {
